@@ -1,0 +1,58 @@
+{
+	"compiler": {
+		"version": "0.8.25+commit.b61c2a91"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "num",
+						"type": "uint256"
+					}
+				],
+				"name": "test",
+				"type": "event"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Blockchain 3/testt.sol": "Test"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Blockchain 3/testt.sol": {
+			"keccak256": "0x0e8c497db62f007944aa5cefacb49f007d71a7abae4620783547cac5fa230dc8",
+			"urls": [
+				"bzz-raw://5571ff148f8db535acacbe0338205f32d25958d04ba2e222b854e0f364f38f4a",
+				"dweb:/ipfs/QmdkTNzXtc1yLQ1cWcq6aRumgziSem2TVeqXzcVw3W3zxa"
+			]
+		}
+	},
+	"version": 1
+}

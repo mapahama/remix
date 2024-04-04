@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.25+commit.b61c2a91"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "num",
+						"type": "uint256"
+					}
+				],
+				"name": "testt",
+				"type": "event"
+			},
+			{
+				"inputs": [],
+				"name": "testEv",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Blockchain 3/testt.sol": "TestEvent"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Blockchain 3/testt.sol": {
+			"keccak256": "0xad1fa839beb2490a6844c45c290a0f8681a1258d708a130c6f25d0e4a12e98a4",
+			"urls": [
+				"bzz-raw://375f58288915f87ebf058f2a3e15935d0639ce0545c5cdafa3218b02de0b32f9",
+				"dweb:/ipfs/QmcReuebRywrjuw5GcXSNFgBw8ViR1N2Z34owaWHfgDwyt"
+			]
+		}
+	},
+	"version": 1
+}

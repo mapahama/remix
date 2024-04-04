@@ -1,0 +1,95 @@
+{
+	"compiler": {
+		"version": "0.8.25+commit.b61c2a91"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_entryFee",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_prizePool",
+						"type": "uint256"
+					}
+				],
+				"name": "createGame",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "deployedGames",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getDeployedGames",
+				"outputs": [
+					{
+						"internalType": "address[]",
+						"name": "",
+						"type": "address[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Blockchain 3/game.sol": "GameFactory"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Blockchain 3/game.sol": {
+			"keccak256": "0x8b42d5feded6c437b2e8784e80511b102d9bb86d5fd3e0fd297b25645837639b",
+			"urls": [
+				"bzz-raw://2e1be77b2ee4496f8fef822110ed190781153fbe975967c4639cb6ad0952c530",
+				"dweb:/ipfs/QmYYa75URX4H2te3zoRrjswpqAhCvU5cMnbg4GvDhGrs6F"
+			]
+		}
+	},
+	"version": 1
+}

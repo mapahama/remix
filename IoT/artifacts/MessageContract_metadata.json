@@ -1,0 +1,114 @@
+{
+	"compiler": {
+		"version": "0.8.24+commit.e11b9ed9"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "int8",
+						"name": "newOn",
+						"type": "int8"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "sender",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "int8",
+						"name": "newMessage",
+						"type": "int8"
+					}
+				],
+				"name": "MessageSet",
+				"type": "event"
+			},
+			{
+				"inputs": [],
+				"name": "on",
+				"outputs": [
+					{
+						"internalType": "int8",
+						"name": "",
+						"type": "int8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "readLed",
+				"outputs": [
+					{
+						"internalType": "int8",
+						"name": "",
+						"type": "int8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "int8",
+						"name": "newOn",
+						"type": "int8"
+					}
+				],
+				"name": "setLed",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"IoT/iot.sol": "MessageContract"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"IoT/iot.sol": {
+			"keccak256": "0xbc4de0afd60254b5f0dd2b419c953e2e2edd16680972521837c95540c219faec",
+			"urls": [
+				"bzz-raw://e4afa9f938798d60e0695db9a206a0f8986290de8bdef78aeda868060b2cea69",
+				"dweb:/ipfs/QmQWmor9p3hYnuANjeD6hvpaQfGyMHbkjuYPcZK1ptosTT"
+			]
+		}
+	},
+	"version": 1
+}
