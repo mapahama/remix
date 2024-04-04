@@ -1,6 +1,6 @@
 pragma solidity ^0.8.25;
 
-// TODO: if number of registered players is <3, dont start the game and return the money to the players
+// TODO: if number of registered players is <3, dont start the game and return the money to the players.
 
 contract Game {
     // address of the contract owner receives the  fees from the game praticipants
